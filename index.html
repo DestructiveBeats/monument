@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+
+    <link rel="stylesheet" href="css/bootstap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="cards-gallery.css">
+    <title>Bootstrap Theme</title>
+  </head>
+
+<!-- navbar -->
+<body id="home" data-spy="scroll" data-target="#main-nav">
+  <nav class="navbar navbar-expand-sm bg-dark py-4-2 navbar-dark fixed-top" id="main-nav">
+    <div class="container-fluid">
+      <a class="navbar-brand">
+        <h4 id="logo-text" class="d-inline align-middle">Joseph G Hall & Sons Monuments</h4>
+      </a><!--
+
+      -->
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button><!--
+          
+      -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li><!--
+          
+            -->
+          <li class="nav-item">
+            <a href="#about-us-section" class="nav-link">About</a>
+          </li><!--
+          
+            -->
+          <li class="nav-item">
+            <a href="#monuments-section" class="nav-link">Monuments</a>
+          </li><!--
+          
+            -->
+            <li class="nav-item">
+              <a href="#testimonials-section" class="nav-link">Testimonials</a>
+            </li><!--
+
+            -->
+            <li class="nav-item">
+              <a href="#warranty-section" class="nav-link">Warranty</a>
+            </li>
+          <li class="nav-item">
+            <a href="contact-us.html" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
+              <i class="fab fa-twitter"></i>
+              <p class="d-lg-none d-xl-none">Twitter</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
+              <i class="fab fa-facebook-square"></i>
+              <p class="d-lg-none d-xl-none">Facebook</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
+              <i class="fab fa-instagram"></i>
+              <p class="d-lg-none d-xl-none">Instagram</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+ <!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view">
+        <img class="d-block w-100" src="../img/grave-yard-large.png" alt="First slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h1 class="hero-heading h1-responsive">No one is actually dead until the ripples <br> they cause in the world die away</h1>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="../img/angle-large.png"
+          alt="Second slide">
+        <div class="mask rgba-black-strong"></div>
+      </div>
+      <div class="carousel-caption">
+        <h1 class="hero-heading h1-responsive">When he died, all things soft and beautiful <br> and bright would be buried with him</h1>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="../img/rose-large.png"
+          alt="Third slide">
+        <div class="mask rgba-black-slight"></div>
+      </div>
+      <div class="carousel-caption">
+        <h1 class="hero-heading h1-responsive">If the people we love are stolen from us, the way <br> to have them live on is to never stop loving them.</h1>
+      </div>
+    </div>
+  </div>
+  <!--/.Slides-->
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+
+    <!-- About Us section -->
+  <section id="about-us-section">
+    <div class="container">
+      <div class="row">
+        <div class="text-center">
+          <h1 class="mb-3">About Us</h1>
+          <p id="about-us-para">
+            As we start our 74th year, we have been providing high quality workmanship on cemetery monuments. Our skilled craftsmen will create any product according to your specifications. These are talented and professional craftmen, committed to ensuring your complete satisfaction.  We are conveniently located near the Cemetery of the Resurrection. Hall Monuments and it's Founder. Joseph G. Hall, founded monument firm Joseph G. Hall, of Todt Hill, owner and founder of the Staten Island-based Joseph G. Hall Monuments and Hall Funeral Car Co. ​Mr. Hall owned and operated Joseph G. Hall Monuments and Hall Funeral Car Co., both in Grant City. The funeral car company was closed in 1996 after seventy years of operation. Mr. Hall owned the monument business for fifty-six years. In the 1980s, he opened the Joseph G. Hall and Sons Monuments, Pleasant Plains; it is now owned and operated by his grandson, Brian Hall.</p>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features-4 text-center hero-section-opener">
+    <div class="overlay-2"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="img/coverr-entrance-into-a-greek-cemetery-1578912427829.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+      <div class="row justify-center">
+        <div class="col-md-8 text-center" >
+          <h1 class="mb-3">Our Services</h1>
+          <p class="lead mt-3 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse cursus erat sed sem sagittis cursus.</p>
+          <div class="divider"></div>
+        </div>	
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-padding col-feature">
+          <div class="rounded-circle justify-center">
+            <em class="fas fa-2x fa-archway"></em>
+          </div>
+          <h4 class="services-heading">Mausoleum</h4>
+          <p class="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+        </div>
+        <div class="col-md-3 col-padding col-feature">
+          <div class="rounded-circle justify-center">
+            <em class="fas fa-2x fa-portrait"></em>
+          </div>
+          <h4 class="services-heading">Posline Pictures</h4>
+          <p class="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+        </div>
+        <div class="col-md-3 col-padding col-feature">
+          <div class="rounded-circle justify-center">
+            <em class="fa fa-2x fa-check"></em>
+          </div>
+          <h4 class="services-heading">Ecthed Granite</h4>
+          <p class="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+        </div>
+        <div class="col-md-3 col-padding col-feature">
+          <div class="rounded-circle justify-center">
+            <em class="fas fa-2x fa-paw"></em>
+          </div>
+          <h4 class="services-heading">Pet Monuments</h4>
+          <p class="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+        </div>
+      </div><!--
+
+      -->
+      <div class="row">
+        <div class="col-md-3 col-padding col-feature">
+          <div class="rounded-circle justify-center">
+            <em class="fas fa-2x fa-monument"></em>
+          </div>
+          <h4 class="services-heading">Monuments For All</h4>
+          <p class="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+        </div>
+        <div class="col-md-3 col-padding col-feature">
+          <div class="rounded-circle justify-center">
+            <em class="fas fa-2x fa-landmark"></em>
+          </div>
+          <h4 class="services-heading">Civic Memorials</h4>
+          <p class="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+        </div>
+        <div class="col-md-3 col-padding col-feature">
+          <div class="rounded-circle justify-center">
+            <em class="fa fa-2x fa-check"></em>
+          </div>
+          <h4 class="services-heading">Cremation Urns</h4>
+          <p class="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+        </div>
+        <div class="col-md-3 col-padding col-feature">
+          <div class="rounded-circle justify-center">
+            <em class="fa fa-2x fa-check"></em>
+          </div>
+          <h4 class="services-heading">add here</h4>
+          <p class="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- hands section -->
+  <section id="monuments-for-loved-one-section">
+    <div class="container">
+      <div class="row">
+        <span id="hands-text" class="text-center mx-auto">We make custom monuments for your loved ones</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Facts -->
+  <section id="facts-section-2">
+      <div class="container">
+          <div class="head-heading text-center">
+              <h1 class="mb-1">Facts</h1>
+              <p class="lead mb-5 pb-4">
+                 Scale drawing Is made for your approval on every monument
+              </p>
+          </div>
+          <div class="row counters">
+             <div class="col-lg-3 col-6 text-center">
+                 <span class="numbers" data-toggle="counter-up">74</span>
+                 <p class="lead color-text-facts">Years Of Bussiness</p>
+             </div><!--
+
+             -->
+             <div class="col-lg-3 col-6 text-center">
+                  <span class="numbers" data-toggle="counter-up">30,000</span>
+                  <p class="lead color-text-facts">Projects Done Over</p>
+             </div><!--
+               
+             -->
+             <div class="col-lg-3 col-6 text-center">
+                  <span class="numbers" data-toggle="counter-up">100's</span>
+                  <p class="lead color-text-facts">on Display</p>
+             </div><!--
+               
+            -->
+             <div class="col-lg-3 col-6 text-center">
+                  <span class="numbers" data-toggle="counter-up">7</span>
+                  <p class="lead color-text-facts">Days A Week</p>
+             </div>
+          </div>
+      </div>
+  </section>
+    
+    <!-- monuments-section -->
+  <section id="monuments-section">
+    <div class="container">
+      <h1 class="text-center mb-5">Monuments</h1>
+      <div class="row mb-5">
+        <div class="card-deck">
+          <!--Grid column-->
+          <div class="col-sm col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="img/flush-marker-home.png" alt="Card image cap">
+            <div class="card-body  text-center">
+              <h2 id="color-card-heading" class="card-title">Flush / Grass Marker</h2>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <a href="monument-gallery-1.html"><button type="button" class="btn btn-outline-dark btn-lg mt-3">Learn More</button></a>
+            </div>
+          </div>
+        </div><!--
+
+        -->
+        <!--Grid column-->
+        <div class="col-sm col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="img/slant-marker-home.png" alt="Card image cap">
+            <div class="card-body  text-center">
+              <h2 id="color-card-heading" class="card-title">Slant Marker</h2>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <a href="monument-gallery-2.html"><button type="button" class="btn btn-outline-dark btn-lg mt-3">Learn More</button></a>
+            </div>
+          </div>
+        </div><!--
+
+        -->
+        <!--Grid column-->
+        <div class="col-sm col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="img/flang-marker-home.png" alt="Card image cap">
+            <div class="card-body  text-center">
+              <h2 id="color-card-heading" class="card-title">Flange Marker</h2>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <a href="monument-gallery-3.html"><button type="button" class="btn btn-outline-dark btn-lg mt-3">Learn More</button></a>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div><!--
+
+      -->
+      <div class="row mb-5">
+          <div class="card-deck">
+            <div class="col-sm col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="img/single-1-home.png" alt="Card image cap">
+              <div class="card-body  text-center">
+                <h2 id="color-card-heading" class="card-title">Single Upright</h2>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <a href="monument-gallery-4.html"><button type="button" class="btn btn-outline-dark btn-lg mt-3">Learn More</button></a>
+              </div>
+            </div>
+          </div><!--
+
+          -->
+          <!--Grid column-->
+          <div class="col-sm col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="img/doubles-1.png" alt="Card image cap">
+              <div class="card-body  text-center">
+                <h2 id="color-card-heading" class="card-title">Double Monuments</h2>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <a href="monument-gallery-5.html"><button type="button" class="btn btn-outline-dark btn-lg mt-3">Learn More</button></a>
+              </div>
+            </div>
+          </div><!--
+
+          -->
+          <!--Grid column-->
+          <div class="col-sm col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="img/jewish-home-stone.png" alt="Card image cap">
+              <div class="card-body  text-center">
+                <h2 id="color-card-heading" class="card-title">Jewish Monuments</h2>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <a href="monument-gallery-6.html"><button type="button" class="btn btn-outline-dark btn-lg mt-3">Learn More</button></a>
+              </div>
+            </div>
+          </div><!--
+            
+          -->
+          </div>
+        </div><!--
+
+        -->
+        <div class="row">
+          <div class="card-deck">
+            <div class="col-sm col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="img/bronze marker.png" alt="Card image cap">
+              <div class="card-body  text-center">
+                <h2 id="color-card-heading" class="card-title">Bronze Markers</h2>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <a href="monument-gallery-7.html"><button type="button" class="btn btn-outline-dark btn-lg mt-3">Learn More</button></a>
+              </div>
+            </div>
+          </div><!--
+
+          -->
+          <!--Grid column-->
+          <div class="col-sm col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="img/doubleslant-1.png" alt="Card image cap">
+              <div class="card-body  text-center">
+                <h2 id="color-card-heading" class="card-title">Double Slant Markers</h2>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <a href="monument-gallery-8.html"><button type="button" class="btn btn-outline-dark btn-lg mt-3">Learn More</button></a>
+              </div>
+            </div>
+          </div><!--
+
+          -->
+          <!--Grid column-->
+          <div class="col-sm col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="img/rose-grave.png" alt="Card image cap">
+              <div class="card-body  text-center">
+                <h2 id="color-card-heading" class="card-title">Jewish Monuments</h2>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <a href="monument-gallery-6.html"><button type="button" class="btn btn-outline-dark btn-lg mt-3">Learn More</button></a>
+              </div>
+            </div>
+          </div><!--
+            
+          -->
+          </div>
+        </div>
+    </div>
+  </section>
+
+    <!-- testimonials -->
+    <!-- Section: Testimonials v.3 -->
+  <section id="testimonials-section" class="text-center">
+    <div class="container">
+        <h1 class="text-center mb-5">Testimonials</h1>
+    <!--Grid row-->
+    <div class="row mb-5 text-center">
+
+      <!--Grid column-->
+      <div class="col-md-4 mb-md-0 mb-5 pr-4 pl-4">
+
+        <div class="testimonial">
+          <!--Content-->
+          <h2 class="font-heading-testimonials font-weight-bold dark-grey-text mt-4">D Medr</h2>
+          <p class="font-weight-normal black-text-testimonials">
+            <i class="fas fa-quote-left pr-2"></i>
+            I wish i can i can give Brian Hall 10 stars! He helped my family pick the best stone for my grandfather. I truly appreciate his honesty! Any time we had a question or concern he would always help us out. I HIGHLY RECOMMEND THIS PLACE!!
+          </p>
+          <!--Review-->
+          <div class="orange-text">
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star-half-alt"> </i>
+          </div>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-4 mb-md-0 mb-5 pr-4 pl-4">
+
+        <div class="testimonial">
+          <!--Content-->
+          <h2 class="font-heading-testimonials font-weight-bold dark-grey-text mt-4">Dina Rodriguez</h2>
+          <p class="font-weight-normal black-text-testimonials">
+            <i class="fas fa-quote-left pr-2"></i>
+            I am grateful for the business of this location. Thank god I found this place. Prices are affordable and anyone can purchase these monuments for their loved ones. The monuments are of great quality and I highly recommend this location.            </p>
+          <!--Review-->
+          <div class="orange-text">
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+          </div>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-4 pr-4 pl-4">
+
+        <div class="testimonial">
+          <!--Content-->
+          <h2 class="font-heading-testimonials font-weight-bold mt-4">Jill Dove</h2>
+          <p class="font-weight-normal black-text-testimonials">
+            <i class="fas fa-quote-left pr-2"></i>
+            I highly recommend Brian Hall. When I thought there was a problem with my dad's headstone, Brian drove to New Jersey over an hour away to pick me up and bring me to the cemetery, he spent hours with me showing me all the different colors of headstones. I picked a very nice headstone for my father, and I'm very happy with it          <!--Review-->
+          <div class="orange-text">
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color far fa-star"> </i>
+          </div>
+        </div>
+
+      </div><!--
+
+      -->
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+    <div class="row text-center">
+
+      <!--Grid column-->
+      <div class="col-md-4 mb-md-0 mb-5 pr-4 pl-4">
+
+        <div class="testimonial">
+          <!--Content-->
+          <h2 class="font-heading-testimonials font-weight-bold dark-grey-text mt-4">BP</h2>
+          <p class="font-weight-normal black-text-testimonials">
+            <i class="fas fa-quote-left pr-2"></i>
+            My daughter unexpectedly passed I was so devastated ,I found enough courage to stop at JHall monuments and I'm so glad I did . A woman came out her name is Betsy she was so kind and compassionate ,she was very helpful ,with design and wording .i fully recommend this monument showplace .          </p>
+          <!--Review-->
+          <div class="orange-text">
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star-half-alt"> </i>
+          </div>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-4 mb-md-0 mb-5 pr-4 pl-4">
+
+        <div class="testimonial">
+          <!--Content-->
+          <h2 class="font-heading-testimonials font-weight-bold dark-grey-text mt-4">Mike Shor</h2>
+          <p class="font-weight-normal black-text-testimonials">
+            <i class="fas fa-quote-left pr-2"></i>
+            Very well established and reliable business            
+          </p>
+          <!--Review-->
+          <div class="orange-text">
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+          </div>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-4 pr-4 pl-4">
+
+        <div class="testimonial">
+          <!--Content-->
+          <h2 class="font-heading-testimonials font-weight-bold mt-4">Maria</h2>
+          <p class="font-weight-normal black-text-testimonials">
+            <i class="fas fa-quote-left pr-2"></i>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque soluta veritatis possimus illo earum, eius excepturi ea nisi. Soluta aspernatur magnam eveniet repellendus architecto ducimus nihil iste rerum recusandae nostrum.
+            </p>
+          <!--Review-->
+          <div class="orange-text">
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color fas fa-star"> </i>
+            <i class="star-color far fa-star"> </i>
+          </div>
+        </div>
+
+      </div><!--
+        
+      -->
+      <!--Grid column-->
+
+    </div>
+  </div>
+  </section>     
+
+<!-- Section: Testimonials v.3 --> 
+
+    <!-- Footer -->
+<footer class="page-footer font-small blue py-5">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 id="logo-text" class="text-uppercase text-center">Joseph G Hall & Sons Monuments</h5>
+        <p class="text-white text-center">As we start our 74th year, we have been providing high quality <br> workmanship on cemetery monuments. Our skilled craftsmen will create any <br> product according to your specifications. These are talented and professional <br> craftmen, committed to ensuring your complete satisfaction.</p>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 id="logo-text" class="text-uppercase">Monuments / Contact Info</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Flush / Grass Marker</a>
+          </li>
+          <li>
+            <a href="#!">Slant Marker</a>
+          </li>
+          <li>
+            <a href="#!">Flange Marker</a>
+          </li>
+          <li>
+            <a href="#!">Single Upright</a>
+          </li>
+          <li>
+            <a href="#!">Double Monuments</a>
+          </li>
+          <li>
+            <a href="#!">Jewish Monuments</a>
+          </li>
+          <li>
+            <a href="#!">Bronze Markers</a>
+          </li>
+          <li>
+            <a href="#!">Double Slant Markers</a>
+          </li>
+          <li>
+            <a href="#!">Contact Us</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+
+        <ul class="list-unstyled icon-align">
+          <li class="mr-4">
+            <a href="#!"><a href="#!"><i class=" fa-2x fab fa-facebook-square"></i></a></a>
+          </li>
+          <li class="mr-4">
+            <a href="#!"><i class=" fa-2x fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#!"><i class=" fa-2x fab fa-twitter"></i></a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright 
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/">Jason Speziale</a>
+  </div>
+  Copyright -->
+
+</footer>
+<!-- Footer -->
+      
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha256-zUQGihTEkA4nkrgfbbAM1f3pxvnWiznBND+TuJoUv3M=" crossorigin="anonymous"></script>
+
+
+  <script>
+    
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    $('.carousel').carousel({
+      interval: 5950, // 6000
+      pause: 'hover'
+    });
+    
+    //Lightbox Init
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+
+   // Video Play
+   $(function () {
+      // Auto play modal video
+      $(".video").click(function () {
+        var theModal = $(this).data("target"),
+          videoSRC = $(this).attr("data-video"),
+          videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+        $(theModal + ' iframe').attr('src', videoSRCauto);
+        $(theModal + ' button.close').click(function () {
+          $(theModal + ' iframe').attr('src', videoSRC);
+        });
+      });
+    });
+
+     // Init scrollspy
+     $('body').scrollspy({target: '#main-nav' });
+
+// Smooth Scrolling
+$("#main-nav a ").on('click' , function (event) {
+  if (this.hash !== "") {
+    event.preventDefault();
+
+    const hash = this.hash;
+
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function (){
+      window.location.hash = hash;
+  });
+}
+});
+
+$(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 2
+      });
+
+  </script>
+
+</body>
+
+</html>
+
